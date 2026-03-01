@@ -1,3 +1,7 @@
+[![Code Quality & Build](https://github.com/artemis-lab/wikimedia/actions/workflows/ci.yml/badge.svg)](https://github.com/artemis-lab/wikimedia/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/github/artemis-lab/wikimedia/graph/badge.svg?token=CltJtRL8dj)](https://codecov.io/github/artemis-lab/wikimedia)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Wikimedia
 
 A React web application that surfaces Wikipedia's `On this day` events using the [Wikimedia Feed API](https://api.wikimedia.org/wiki/Feed_API/Reference/On_this_day). Built with React 19, TypeScript, Vite, Redux, and Mantine UI.
