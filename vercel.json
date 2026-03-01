@@ -1,0 +1,4 @@
+{
+  "buildCommand": "npm run ci",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
