@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.margin-4 {
+  margin: 1rem;
+}
+
+.margin-top-4 {
+  margin-top: 1rem;
+}
+
+.padding-left-2 {
+  padding-left: 0.5rem;
+}
+
+.text-nowrap {
+  white-space: nowrap;
+}
+
+.width-40 {
+  width: 10rem;
+}

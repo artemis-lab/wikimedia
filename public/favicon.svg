@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <title>React Demos</title>
+  <!-- Grid of 4 squares representing demo components -->
+  <rect x="4" y="4" width="10" height="10" rx="2" fill="#61dafb"/>
+  <rect x="18" y="4" width="10" height="10" rx="2" fill="#61dafb"/>
+  <rect x="4" y="18" width="10" height="10" rx="2" fill="#61dafb"/>
+  <rect x="18" y="18" width="10" height="10" rx="2" fill="#61dafb"/>
+</svg>
