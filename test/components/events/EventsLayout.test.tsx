@@ -112,7 +112,7 @@ describe("EventsLayout", () => {
     ).toBeInTheDocument();
     expect(screen.getByText("Description of the person")).toBeInTheDocument();
     expect(screen.getByText("Birth year")).toBeInTheDocument();
-    expect(screen.getByText("Showing 1 - 15 of 150")).toBeInTheDocument();
+    expect(screen.getByText("Showing 1–15 of 150")).toBeInTheDocument();
 
     const table = await screen.findByRole("table");
     const rows = within(table).getAllByRole("row");
@@ -212,7 +212,7 @@ describe("EventsLayout", () => {
     let cells = within(rows[1]!).getAllByRole("cell");
 
     expect(cells[1]).toHaveTextContent(/^135$/);
-    expect(screen.getByText("Showing 16 - 30 of 150")).toBeInTheDocument();
+    expect(screen.getByText("Showing 16–30 of 150")).toBeInTheDocument();
 
     await user.click(screen.getByRole("button", { name: /^5$/ }));
 
@@ -223,7 +223,7 @@ describe("EventsLayout", () => {
     cells = within(rows[1]!).getAllByRole("cell");
 
     expect(cells[1]).toHaveTextContent(/^90$/);
-    expect(screen.getByText("Showing 61 - 75 of 150")).toBeInTheDocument();
+    expect(screen.getByText("Showing 61–75 of 150")).toBeInTheDocument();
   });
 
   it("should show modal dialog if events data loading failed", async () => {
