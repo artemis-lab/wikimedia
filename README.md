@@ -6,6 +6,8 @@
 
 A React web application that surfaces Wikipedia's `On this day` events using the [Wikimedia Feed API](https://api.wikimedia.org/wiki/Feed_API/Reference/On_this_day). Built with React 19, TypeScript, Vite, Redux, and Mantine UI.
 
+**Live Demo:** [https://wikimedia.artemislab.net](https://wikimedia.artemislab.net)
+
 ## Getting Started
 
 ### Prerequisites
